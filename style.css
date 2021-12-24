@@ -1,0 +1,32 @@
+#item-list:img {
+    max-width: 5vw;
+}
+
+body {
+    background-image:url('./pics/background.jpg');
+}
+
+h1 {
+    text-align:center;
+    color: white;
+    font-size: 5vh;
+}
+
+p {
+    color: white;
+    font-size: 4vh;
+    -webkit-text-stroke: 0.5px rgb(0, 0, 0);
+}
+
+img {
+    width: 25vw;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+a:hover {
+    box-shadow: 12px 12px 2px 1px rgba(22, 209, 193, 0.5);
+}

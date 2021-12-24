@@ -1,0 +1,30 @@
+#layout {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#col {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+img {
+    max-width: 300px;
+    margin: 5px;
+}
+
+body {
+    background-color: rgb(93, 150, 127);
+}
+
+#go-back {
+    text-decoration: none;
+    transition: width 2s, height 4s;
+    text-align: center;
+}
+
+#go-back:hover {
+    font-size: 20px;
+}
